@@ -1,6 +1,11 @@
-# AI-Driven Architecture Fitness & Modernization Score Engine
+## AI-Driven Architecture Fitness & Modernization Score Engine
 
-This repository provides the **architecture-only blueprint** for an AI-powered engine that evaluates cloud workloads and produces modernization and fitness scores using AWS-native signals and Amazon Bedrock.
+A continuous, event-driven architecture scoring and modernization advisory system powered by AWS-native signals and Amazon Bedrock.
+
+This repository contains the architecture blueprint for an autonomous engine that evaluates cloud workloads, detects modernization opportunities, and generates architecture fitness scores – using AWS telemetry and AI-driven reasoning.
+
+⚠️ Note: This is an architecture-only repository.
+Implementation modules will be added in future versions.
 
 ## 1. Overview
 
