@@ -117,16 +117,16 @@ Bedrock produces:
 
 ## 7. Repository Structure
 
-
+```
 /
 ├── diagrams/
 │   └── architecture-fitness-engine.svg
 ├── docs/
-│   ├── [scoring-model.md](./docs/scoring-model.md)
-│   ├── [modernization-patterns.md](./docs/modernization-patterns.md)
-│   └── [workflow-details.md](./docs/workflow-details.md)
+│   ├── scoring-model.md
+│   ├── modernization-patterns.md
+│   └── workflow-details.md
 └── README.md
-
+```
 
 ## 8. Status
 
