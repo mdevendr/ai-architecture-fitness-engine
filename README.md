@@ -120,19 +120,6 @@ Bedrock produces:
 - No VPC connectivity required for MVP
 - SQS & DDB encrypted by default
 
-## Repository Structure
-
-```
-/
-├── diagrams/
-│   └── architecture-fitness-engine.svg
-├── docs/
-│   ├── scoring-model.md
-│   ├── modernization-patterns.md
-│   └── workflow-details.md
-└── README.md
-```
-
 ## Status
 
 This repository currently contains:
