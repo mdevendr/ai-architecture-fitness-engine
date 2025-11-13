@@ -26,6 +26,7 @@ This repo contains the **architecture** only — *no full implementation is prov
 - **Amazon Bedrock** – Produces the modernization score & recommendations.
 - **DynamoDB** – Stores evaluation metadata, history, and recommendations.
 - **S3** – Stores architecture documents, score reports, exports, and diagrams.
+<img width="4626" height="2976" alt="AI-Driven Architecture Fitness   Modernization Score V1" src="https://github.com/user-attachments/assets/6ab936d5-675f-4c36-9f2e-a5d0f222401b" />
 
 ## 3. Workflow
 
@@ -121,9 +122,9 @@ Bedrock produces:
 ├── diagrams/
 │   └── architecture-fitness-engine.svg
 ├── docs/
-│   ├── scoring-model.md
-│   ├── modernization-patterns.md
-│   └── workflow-details.md
+│   ├── [scoring-model.md](./docs/scoring-model.md)
+│   ├── [modernization-patterns.md](./docs/modernization-patterns.md)
+│   └── [workflow-details.md](./docs/workflow-details.md)
 └── README.md
 ```
 
