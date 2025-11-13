@@ -117,7 +117,7 @@ Bedrock produces:
 
 ## 7. Repository Structure
 
-```
+
 /
 ├── diagrams/
 │   └── architecture-fitness-engine.svg
@@ -126,7 +126,7 @@ Bedrock produces:
 │   ├── [modernization-patterns.md](./docs/modernization-patterns.md)
 │   └── [workflow-details.md](./docs/workflow-details.md)
 └── README.md
-```
+
 
 ## 8. Status
 
