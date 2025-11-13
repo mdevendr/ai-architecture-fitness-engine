@@ -4,10 +4,10 @@ A continuous, event-driven architecture scoring and modernization advisory syste
 
 This repository contains the architecture blueprint for an autonomous engine that evaluates cloud workloads, detects modernization opportunities, and generates architecture fitness scores – using AWS telemetry and AI-driven reasoning.
 
-⚠️ Note: This is an architecture-only repository.
+Note: This is an architecture-only repository.
 Implementation modules will be added in future versions.
 
-## 1. Overview
+## Overview
 
 The engine automates architecture review by:
 - Analysing workload signals (CloudWatch metrics, Config, Cost Explorer, usage patterns)
