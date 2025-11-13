@@ -87,22 +87,30 @@ Bedrock produces:
 
 ## Outputs
 
-### Architecture Fitness Report
+### Sample Report
 ```json
 {
-  "service": "payment-api",
-  "score": 78,
-  "issues": [
-    "No multi-AZ deployment",
-    "High EC2 idle rate",
-    "Large retry bursts at peak hours"
+  "workload_id": "orders-api",
+  "score": 61,
+  "issues_detected": [
+    "ECS service deployed in a single AZ",
+    "CPUUtilization spiking to 92% during peak traffic",
+    "No auto-scaling policy configured",
+    "RDS instance averaged 38% idle CPU over 30 days",
+    "Upstream retries caused by downstream latency",
+    "API Gateway caching disabled"
   ],
   "recommended_patterns": [
-    "Move to Fargate Spot",
-    "Introduce SQS buffer",
-    "Adopt Strangler migration"
-  ]
+    "SQS Buffering",
+    "Multi-AZ Hardening",
+    "Right-Sizing",
+    "Serverless First Migration"
+  ],
+  "rationale": "High CPU spikes and retry storms indicate synchronous coupling and insufficient elasticity. Introducing SQS buffering will decouple the API and reduce retries. Single-AZ deployment is a resilience risk, recommending Multi-AZ Hardening. RDS idle CPU suggests right-sizing. Moving to serverless would reduce operational overhead and improve scaling characteristics.",
+  "summary": "This workload is functional but has clear resilience and performance risks. Applying the recommended patterns would improve reliability, reduce cost, and align with best-practice AWS architectures."
 }
+
+
 ```
 
 ### Daily/Weekly Summary
