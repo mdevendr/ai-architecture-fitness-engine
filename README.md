@@ -44,7 +44,8 @@ The solution operates as an **event-driven architecture intelligence pipeline**:
 6. Amazon Bedrock → Architecture reasoning engine  
 7. S3 → Score and findings store  
 8. SNS / Jira → Optional high-severity alerts  
-<img width="4566" height="3306" alt="AI-Driven Architecture Fitness   Modernization Score V1 (1)" src="https://github.com/user-attachments/assets/dce6adb0-edc2-43e2-9bfd-a74ca58e1c98" />
+<img width="4566" height="3306" alt="AI-Driven Architecture Fitness   Modernization Score V5" src="https://github.com/user-attachments/assets/aa113aac-6e48-4daf-8bcd-156e4739a1a3" />
+
 
 ---
 
