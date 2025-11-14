@@ -193,7 +193,7 @@ These scores give leadership a quantitative architecture health view.
 ## 4. Output Format
 
 Bedrock returns a strict JSON document:
-
+```
 {
   "status": "SUCCESS",
   "fitness_score": <0-100>,
@@ -217,7 +217,7 @@ Bedrock returns a strict JSON document:
   "narrative_summary": "",
   "raw_llm_rationale": ""
 }
-
+```
 This output is validated by Step Functions before storage.
 
 ---
