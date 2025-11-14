@@ -9,7 +9,7 @@ The engine transforms noisy cloud signals into **actionable architecture intelli
 ###**Mahesh Devendran**  
 Cloud Architect | AWS | Azure | GCP | Serverless | AI-Driven Architecture  
 
-Repository: https://github.com/mdevendr/ai-architecture-fitness-engine
+Linkedin: https://www.linkedin.com/in/mahesh-devendran-83a3b214/
 
 ---
 
