@@ -123,7 +123,7 @@ Explain:
 ## 5. STRICT JSON OUTPUT SCHEMA (Must Follow Exactly)
 
 The model MUST output exactly the following JSON structure:
-
+```
 {
   "status": "SUCCESS",
   "fitness_score": <0-100>,
@@ -147,7 +147,7 @@ The model MUST output exactly the following JSON structure:
   "narrative_summary": "",
   "raw_llm_rationale": ""
 }
-
+```
 Rules:
 - Do not add or remove fields  
 - narrative_summary must be short and readable  
