@@ -6,9 +6,7 @@ The engine transforms noisy cloud signals into **actionable architecture intelli
 
 ---
 
-## Author
-
-**Mahesh Devendran**  
+###**Mahesh Devendran**  
 Cloud Architect | AWS | Azure | GCP | Serverless | AI-Driven Architecture  
 
 Repository: https://github.com/mdevendr/ai-architecture-fitness-engine
@@ -46,6 +44,7 @@ The solution operates as an **event-driven architecture intelligence pipeline**:
 6. Amazon Bedrock → Architecture reasoning engine  
 7. S3 → Score and findings store  
 8. SNS / Jira → Optional high-severity alerts  
+<img width="4566" height="3306" alt="AI-Driven Architecture Fitness   Modernization Score V1 (1)" src="https://github.com/user-attachments/assets/dce6adb0-edc2-43e2-9bfd-a74ca58e1c98" />
 
 ---
 
